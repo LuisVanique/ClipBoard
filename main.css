@@ -1,0 +1,118 @@
+.principal, .conteudo_secundario, .conteudo_terciario{
+    display: flex;
+    font-family: 'Bai Jamjuree';
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.principal_texto, .secundario_texto {
+    font-size: max(24px, 5vw);
+    margin-top: 2em;
+    width: 65%;
+    font-weight: 700;
+    color: var(--Dark-Grayish-Blue);
+}
+
+.principal_subtitulo, .secundario_subtitulo {
+    font-size: 14px;
+    margin: 20px 0 30px 0;
+    color: var(--Grayish-Blue);
+    padding: 0 12vw;
+}
+
+.botões {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.botão_ios {
+    border: 1px solid var(--Strong-Cyan);
+    background: var(--Strong-Cyan);
+    border-radius: 30px;
+    width: 75vw;
+    padding: 0.5em;
+    font-family: 'Bai Jamjuree';
+    font-weight: 700;
+    color: white;
+    box-shadow: 5px 5px 20px var(--Strong-Cyan);
+    margin-bottom: 1.2em;
+}
+
+.botão_mac {
+    border: 1px solid var(--Light-Blue);
+    background: var(--Light-Blue);
+    border-radius: 30px;
+    width: 75vw;
+    padding: 0.5em;
+    font-family: 'Bai Jamjuree';
+    font-weight: 700;
+    color: white;
+    box-shadow: 5px 5px 20px var(--Light-Blue);
+    margin-bottom: 20%;
+}
+
+.imagem_principal, .imagem_secundaria {
+    width: 90%;
+}
+
+.divmarcas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2em;
+}
+
+.marcas_lista {
+    margin: 1.5em 0;
+    padding: 5px;
+}
+
+.img_marca {
+    width: 30%;
+    margin: 0 auto;
+}
+
+@media (min-width: 1440px) {
+    .botões {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .botão_ios {
+        margin-bottom: 0;
+        width: 15vw;
+    }
+
+    .botão_mac {
+        margin-bottom: 0;
+        width: 15vw;
+    }
+
+    .principal_texto {
+        font-size: 36px;
+    }
+
+    .secundario_texto {
+        font-size: 36px;
+    }
+
+    .img_marca{
+        width: 10vw;
+    }
+
+    .logo_rodape {
+        width: 5vw;
+    }
+
+    .lista_link {
+        margin: 1em 0;
+    }
+}
+

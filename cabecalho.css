@@ -1,0 +1,45 @@
+.cabecalho {
+    background-image: url(img/bg-header-mobile.png) repeat;
+    width: 100%;
+    padding: 5em 0 10px 0;
+    text-align: center;
+}
+
+.cabecalho_logo {
+    margin-bottom: 3.5em;
+}
+
+.cabecalho_titulo {
+    width: 65%;
+    margin: 0 auto;
+    color: var(--Dark-Grayish-Blue);
+    font-family: 'Bai Jamjuree';
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.cabecalho_subtitulo {
+    font-size: max(16px, 3vw);
+    text-align: center;
+    color: var(--Grayish-Blue);
+    font-family: 'Bai Jamjuree';
+    margin: 20px 0;
+}
+
+@media (min-width: 1440px) {
+    .cabecalho {
+        background-image: url(img/bg-header-mobile.png) no-repeat;
+        width: 0 auto;
+        text-align: center;
+    }
+
+    .cabecalho_titulo {
+        font-size: 48px;
+    }
+
+    .cabecalho_subtitulo{
+        width: 90vw;
+        text-align: center;
+        font-size: 16px;
+    }
+}

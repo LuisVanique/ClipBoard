@@ -1,0 +1,25 @@
+.rodapé {
+    display: flex;
+    justify-content: center;
+    margin: 2em 0;
+    flex-direction: column;
+}
+
+.logo_rodapé {
+    width: 15%;
+    margin: 10px auto;
+}
+
+.lista_link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.link {
+    text-decoration: none;
+    font-family: 'Bai Jamjuree';
+    color: var(--Grayish-Blue);
+}
+
